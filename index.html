@@ -1,0 +1,139 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="title icon" type="image/x-icon" href="favicon.ico"/>
+    <title>Bootstrap · The most popular HTML, CSS, and JS library in the world.</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  	<div class="navbar">
+      <a href="#home"><button class="homebutton">B</button>
+      <a class="navlinks" id="active" href="#home">Home</a>
+      <a class="navlinks" href="#doc">Documentation</a>
+      <a class="navlinks" href="#ex">Examples</a>
+      <a class="navlinks" href="#themes">Themes</a>
+      <a class="navlinks" href="#jobs">Jobs</a>
+      <a class="navlinks" href="#expo">Expo</a>
+      <a class="navlinks" href="#blog">Blog</a>
+
+      <div class= "r_navlinks">
+        <a href="#"><button class="download1">Download</button></a>
+        <a href="#"><img class="icons" alt="githubicon" src="https://raw.githubusercontent.com/Inumedia/Slack/master/Slack/Resources/favicon.ico" style="width:16px;height:16px;"></a>
+        <a href="#"><img class="icons" alt="twiticon" src="https://abs.twimg.com/favicons/favicon.ico" style="width:16px;height:16px"></a>
+        <a href="#"><img class="icons" alt="slackicon" src="https://assets-cdn.github.com/favicon.ico" style="width:16px;height:16px"></a>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn" style="float:right">v4.0 ⌄</button>
+        <div class="dropdown-content">
+          <a class="active" href="#">Latest (4.x)</a>
+          <a href="#">v4 Alpha 6</a>
+          <a href="#">v3.3.7</a>
+          <a href="#">v2.3.2</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row" id="twoCol">
+        <div class="col2" id="big1">
+          <img class="mainpic" src="https://getbootstrap.com/assets/img/bootstrap-stack.png">
+        </div>
+
+        <div class="col2" id="big2">
+          <h1>Bootstrap</h1>
+          <h2>Build responsive, mobile-first projects on the web with the
+            world's most popular front-end component library.
+          </h2>
+          <h2>Bootstrap is an opensource toolkit for developing with
+            HTML, CSS, and JS. Quickly prototype your ideas or build
+            your entire app with our Sass variables and mixins,
+            responsive grid system, extensive prebuilt components, and
+            powerful plugins built on jQuery.
+          </h2>
+
+          <center>
+          <a href="#"><button id="get_started">Get started</button></a>
+          <a href="#"><button id="download2">Download</button></a>
+          </center>
+
+          <br><br><br><p id="version">Currently v4.0.0-beta</p><br><br>
+          <img style="float:left;" src="https://68.media.tumblr.com/a498e8df832dedfb1438b0e476a3da3c/tumblr_owcbgyVFkd1qau7m3o1_r1_400.png">
+        </div>
+      </div>
+
+      <div class="row" id="threeCol">
+          <div class="col3">
+            <img src="https://68.media.tumblr.com/f7919be1d4ae33f560a957f738914a67/tumblr_owcbgyVFkd1qau7m3o2_r1_75sq.png">
+            <h3>Installation</h3>
+            <p>Include Bootstrap's source Sass and JavaScript files via Bower,
+              Composer, Meteor, or npm. Package managed installs don't include
+              documentation, but do include our build system and readme.
+            </p>
+            <div class="hiddenscroll">
+              <p class="CLcode">npm install bootstrap@4.0.0-beta</p>
+            </div>
+            <div class="hiddenscroll">
+              <p class="CLcode">gem install bootstrap -v 4.0.0.alpha6</p>
+            </div>
+            <div class="hiddenscroll">
+              <p class="CLcode">bower install bootstrap#v4.0.0-beta</p>
+            </div>
+            <br><hr align="left">
+            <button class="colbuttons">Read Installation docs</button>
+            <br>
+          </div>
+
+        <div class="col3">
+          <img src="https://68.media.tumblr.com/6ad199c28f80994170b626f2c98f4d91/tumblr_owcbgyVFkd1qau7m3o5_r1_75sq.png">
+          <h3>Bootstrap CDN</h3>
+          <p>When you only need to include Bootstrap's compiled CSS or JS, you
+            can use the Bootstrap CDN.</p>
+
+          <h4>CSS Only</h4>
+          <div class="scrollbox" id="sb1">
+            <pre><p class="code"><mark class="dark">&lt;link</mark> <mark class="blue">rel=</mark><mark class="red">"stylesheet"</mark> <mark class="blue">href="</mark><mark class="red">https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"</mark> <mark class="blue">integrity=</mark><mark class="red">"sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"</mark> <mark class="blue">crossorigin=</mark><mark class="red">"anonymous"</mark><mark class="dark">></mark>
+            </p></pre>
+          </div>
+
+          <h4>JS, Popper, jQuery</h4>
+          <div class="scrollbox" id="sb2">
+            <pre><p class="code"><mark class="dark">&lt;script</mark> <mark class="blue">src=</mark><mark class="red">"https://code.jquery.com/jquery-3.2.1.slim.min.js"</mark> <mark class="blue">integrity=</mark><mark class="red">"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"</mark> <mark class="blue">crossorigin=</mark><mark class="red">"anonymous"</mark><mark class="dark">&gt;&lt;/script&gt;</mark>
+            <br><mark class="dark">&lt;script</mark> <mark class="blue">src=</mark><mark class="red">"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"</mark> <mark class="blue">integrity=</mark><mark class="red">"sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"</mark> <mark class="blue">crossorigin=</mark><mark class="red">"anonymous"</mark><mark class="dark">>&lt;/script&gt;</mark>
+            <br><mark class="dark">&lt;script</mark> <mark class="blue">src=</mark><mark class="red">"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"</mark> <mark class="blue">integrity=</mark><mark class="red">"sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"</mark> <mark class="blue">crossorigin=</mark><mark class="red">"anonymous"</mark><mark class="dark">>&lt;/script&gt;</mark>
+          </p></pre>
+          </div>
+          <br><hr align="left">
+          <button class="colbuttons">Explore the docs</button>
+        </div>
+
+        <div class="col3">
+          <img src="https://68.media.tumblr.com/76d1c0c76a346bf2d508b6531d3c1e25/tumblr_owcbgyVFkd1qau7m3o8_r1_75sq.png">
+          <h3>Offical Themes</h3>
+          <p>Take Bootstrap 4 to the next level with official premium themes—
+            toolkits built on Bootstrap with new components and plugins, docs,
+            and build tools.
+          </p>
+          <img id="theme-pic" src="https://getbootstrap.com/assets/img/bootstrap-themes.png"><br>
+          <br><hr align="left">
+          <button class="colbuttons" style="float:left">Browse themes</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a class="footlinks" href="#">Github</a>
+      <a class="footlinks" href="#">Twitter</a>
+      <a class="footlinks" href="#">Examples</a>
+      <a class="footlinks" href="#">About</a>
+
+      <br><p id="footnote">Designed and built with all the love in the world by <a href="#">@mdo</a>
+        and <a href="#">@fat</a>. Maintained by the <a href="#">core team</a> with the help of
+        <a href="#">our contributors</a>.
+        <br>Currently v4.0.0-beta. Code licensed <a href="#">MIT</a>, docs <a href="#">CC BY 3.0</a>.
+      </p>
+    </div>
+
+  </body>
+</html>
